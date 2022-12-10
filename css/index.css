@@ -1,0 +1,23 @@
+* {
+	font-family: 'SF Mono', SFMono-Regular, ui-monospace, 'DejaVu Sans Mono', Menlo, Consolas, monospace;
+	background-color: #1F1F24;
+	color: #FFFFFF;
+}
+
+.code-wrapper > .line-numbers > p { 
+	color: #AFAFAF; 
+	text-align: right;
+}
+.comment { color: #6C7986; }
+.type { color: #FC5FA3; }
+.function { color: #41A1C0; }
+.number { color: #D0BF69; }
+.string { color: #FC6A5D; }
+
+.code-wrapper > .code > p {
+	
+}
+
+img {
+	margin: auto;
+}
