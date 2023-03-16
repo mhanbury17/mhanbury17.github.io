@@ -1,0 +1,43 @@
+* {
+	font-family: 'DM Sans', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+	background-color: #202028;
+	color: #FFFFFF;
+	font-size: 16px;
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar {
+    height: 100vh;
+    width: 50px;
+
+    border-color: red;
+    border-style: dotted;
+}
+
+.main {
+    height: 100vh;
+    width: calc(100vw - 100px);
+
+    border-color: red;
+    border-style: dotted;
+}
+
+.contact {
+    height: 100vh;
+    width: 50px;
+
+    border-color: red;
+    border-style: dotted;
+}
+
+#scrollArrow {
+    width: 40px;
+}

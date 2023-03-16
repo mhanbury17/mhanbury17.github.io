@@ -1,0 +1,139 @@
+* {
+	font-family: 'SF Mono', SFMono-Regular, ui-monospace, 'DejaVu Sans Mono', Menlo, Consolas, monospace;
+	background-color: #202028;
+	color: #FFFFFF;
+	font-size: 16px;
+}
+
+
+/* action */
+.action-wrapper {
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100vw;
+
+	bottom: 40px;
+
+	transition: ease-in-out 300ms;
+}
+
+.mode-wrapper {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+
+	height: 40px;
+	width: 190px;
+
+	background: #161616;
+	border-radius: 20px;
+}
+
+.lang-wrapper {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+
+	height: 40px;
+	width: 730px;
+
+	border-radius: 20px;
+	background: #161616;
+}
+
+.gallery-wrapper {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+
+	height: 40px;
+	width: 190px;
+
+	background: #161616;
+	border-radius: 20px;
+}
+
+.mode-wrapper > *,
+.lang-wrapper > *,
+.gallery-wrapper > * {
+	display: flex;
+	align-items: center;
+	background: transparent;
+}
+
+.mode-wrapper > div,
+.lang-wrapper > div,
+.gallery-wrapper > div {
+	position: relative;
+	top: 5px;
+	left: 5px;
+
+	height: 30px;
+	width: 90px;
+
+	border-radius: 15px;
+
+	transition: ease-in-out 300ms;
+}
+
+.mode-wrapper > div > *,
+.lang-wrapper > div > *,
+.gallery-wrapper > div > * {
+	background: transparent;
+	margin: auto;
+}
+
+.mode-wrapper:hover > div,
+.lang-wrapper:hover > div {
+	background: #161616;
+	cursor: pointer;
+}
+
+.mode-wrapper > div:hover,
+.lang-wrapper > div:hover {
+	background: #282828;
+	cursor: pointer;
+}
+
+.gallery-wrapper > div {
+	left: 20px;
+}
+
+.gallery-wrapper:hover {
+	cursor: pointer;
+	background: #282828;
+}
+
+.gallery-wrapper > .gallery {
+	position: relative;
+	left: 10px;
+}
+
+.gallery-wrapper > .gallery > img {
+	height: 30px;
+	width: 30px;
+	border-radius: 5px;
+
+	margin: 0px;
+	padding: 2px;
+}
+
+
+
+
+
+
+
+
+
+.code-wrapper {
+	position: relative;
+
+	top: 80px;
+	left: 20vw;
+
+	height: 720px;
+	width: 60vw;
+}
